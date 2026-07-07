@@ -1,0 +1,30 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+
+# Streamlit/local config
+*.toml
+
+# Large binary model/data files
+*.safetensors
+*.bin
+*.sqlite
+*.db
+*.dll
+*.so
+*.dylib
+
+# Spider dataset directories (too large for GitHub push)
+spider/database/
+spider/test_database/
+
+# Editor files
+*.swp
+*.swo
+*.DS_Store
+*.log
